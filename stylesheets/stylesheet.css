@@ -1,6 +1,10 @@
 #name{
 font: 50pt helvetica;
+font-weight: bold;
 text-align: center;
 display: block;
 width: 100%;
+line-height: 75px;
+background-color: #aaa;
+color: #fff;
 }
