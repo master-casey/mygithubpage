@@ -22,7 +22,11 @@ $(document).ready(function(){
 	"You do you.",
 	"Fuck, marry, kill - a dog, cat, or me?",
 	"Does it look like my fly is unzipped? Because I decided to stop buttoning my jeans.",
-	"...Sorry, I'm on my phone right now."
+	"...Sorry, I'm on my phone right now.",
+	"/smile and lick teeth repeatedly/",
+	"Do you always talk this much?",
+	"That pilot dude from Firefly had it coming.",
+	"So, what are some lines you use when you get rid of guests who overstay their welcome?"
   ];
 
 function getExcuse() {
