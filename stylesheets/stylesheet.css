@@ -1,5 +1,5 @@
 #name{
-font: 100pt helvetica;
+font: 75pt helvetica;
 font-weight: bold;
 text-align: center;
 display: block;
@@ -10,10 +10,13 @@ color: #fff;
 width: 75%;
 }
 
+.height50 {
+height:50%;
+}
+
 #excuseId{
 font: 25pt helvetica;
 font-weight: bold;
 text-align: center;
 color: #888;
-height: 50%;
 }
