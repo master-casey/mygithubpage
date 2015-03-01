@@ -9,3 +9,10 @@ color: #fff;
 .thin {
 width: 75%;
 }
+
+#excuseId{
+font: 50pt helvetica;
+font-weight: bold;
+text-align: center;
+color: #888;
+}
