@@ -1,7 +1,11 @@
 (function($) {
 $(document).ready(function(){
 
-
+	var excuse = excuses[Math.floor(Math.random() * excuses.length)];
+	var div = document.getElementById("excuseId");
+	div.textContent = excuse;
+	var text = div.textContent;
+	
 
   })
 })(jQuery)
@@ -10,7 +14,10 @@ $(document).ready(function(){
 	"Are you bulking? Can you teach me your tricks?",
 	"I'm sorry, do you have the time? Oh shit - I'm late - ",
 	"k.",
-	"I can't relate."
+	"I can't relate.",
+	"Good for you - I'm still single.",
+	"Do you know anything about real",
+	"",
   ];
 
 function getExcuse() {
