@@ -1,11 +1,6 @@
 (function($) {
 $(document).ready(function(){
 
-	var excuse = excuses[Math.floor(Math.random() * excuses.length)];
-	var div = document.getElementById("excuseId");
-	div.textContent = excuse;
-	var text = div.textContent;
-	
 
   })
 })(jQuery)
