@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 function getExcuse() {
 	var excuse = excuses[Math.floor(Math.random() * excuses.length)];
-	var div = document.getElementById("excuseDiv");
+	var div = document.getElementById("excuseId");
 	div.textContent = excuse;
 	var text = div.textContent;
   }
