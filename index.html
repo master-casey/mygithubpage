@@ -13,6 +13,7 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
 
   <title>say hi.say bye</title>
 </head>
@@ -22,17 +23,18 @@
     <div class="jumbotron">
       <div class="container">
 	<center>
+	<div id="excuseId">
         <div id="name">say hi.say bye</div>
 	<div id="sub">make conversation ... end now</div>
+	</div>
 	</center>
       </div>
     </div>
 
 <center>
 <div class="thin">
-<p><a class="btn btn-primary btn-lg btn-block" href="/excuse.html" role="button">Give Me an Excuse</a></p>
+<p><a class="btn btn-primary btn-lg btn-block" onclick="getExcuse()" role="button">Give Me an Excuse</a></p>
 
-<p><a class="btn btn-primary btn-lg btn-block" href="/text.html" role="button">Send me an Escape Text</a></p>
 <p>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#about">
