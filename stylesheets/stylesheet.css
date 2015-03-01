@@ -7,11 +7,12 @@ color: #fff;
 }
 
 #sub{
-font: 8pt helvetica;
+padding: 10px;
+font: 12pt helvetica;
 font-weight: bold;
 text-align: center;
 display: block;
-letter-spacing: 4px;
+letter-spacing: 6px;
 color: #888;
 }
 
