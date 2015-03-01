@@ -6,6 +6,15 @@ display: block;
 color: #fff;
 }
 
+#sub{
+font: 8pt helvetica;
+font-weight: bold;
+text-align: center;
+display: block;
+letter-spacing: 4px;
+color: #888;
+}
+
 .thin {
 width: 75%;
 }
