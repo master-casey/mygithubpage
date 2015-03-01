@@ -11,7 +11,7 @@ $(document).ready(function(){
 	"k.",
 	"I can't relate.",
 	"Good for you - I'm still single.",
-	"Sorry, I thought were someone else.",
+	"Sorry, I thought you were someone else.",
 	"Do you know how irregular periods can be until they're unhealthy?",
 	"I will use my broken arm bone to stab your still beating heart from your ribcage.",
 	"You do you.",
