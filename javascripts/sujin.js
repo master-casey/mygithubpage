@@ -13,9 +13,9 @@ $(document).ready(function(){
   var xml = new XMLHttpRequest();
   xml.open("GET", "xml/sujin.xml", false);
   xml.send();
-  var xmlDoc = xml.responseXml;
+  var xmlDoc = xml.responseXML;
 
-  var counter = xmlDoc.getElementsByTagName("count")[0].childNodes[0].nodeValue();
+  var counter = xmlDoc.getElementsByTagName("count")[0].childNodes[0].nodeValue;
 
 function incr() {
 	var excuse = counter;
