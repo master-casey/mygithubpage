@@ -3,7 +3,7 @@ $(document).ready(function(){
 	
 	
 	var excuse = excuses[Math.floor(Math.random() * excuses.length)];
-	var div = document.getElementById("counter");
+	var div = document.getElementById("name_b");
 	div.textContent = excuse;
 	var text = div.textContent;
 
@@ -31,7 +31,7 @@ $(document).ready(function(){
 
 function incr() {
 	var excuse = excuses[Math.floor(Math.random() * excuses.length)];
-	var div = document.getElementById("counter");
+	var div = document.getElementById("name_b");
 	div.textContent = excuse;
 	var text = div.textContent;
   }
