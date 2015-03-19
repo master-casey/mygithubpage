@@ -15,7 +15,7 @@ $(document).ready(function(){
   xml.send();
   var xmlDoc = xml.responseXml;
 
-  var counter = xmlDoc.getElementsByTagName("to")[0].childNodes[0].nodeValue();
+  var counter = xmlDoc.getElementsByTagName("count")[0].childNodes[0].nodeValue();
 
 function incr() {
 	var excuse = counter;
