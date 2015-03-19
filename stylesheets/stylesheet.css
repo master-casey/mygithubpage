@@ -1,9 +1,13 @@
-#name{
+#name, #name_b{
 font: 75pt helvetica;
 font-weight: bold;
 text-align: center;
 display: block;
 color: #fff;
+}
+
+#name_b{
+color: #000;
 }
 
 #sub{
