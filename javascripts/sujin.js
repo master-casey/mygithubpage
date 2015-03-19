@@ -29,7 +29,7 @@ $(document).ready(function(){
 	"So, what are some lines you use when you get rid of guests who overstay their welcome?"
   ];
 
-function getExcuse() {
+function incr() {
 	var excuse = excuses[Math.floor(Math.random() * excuses.length)];
 	var div = document.getElementById("counter");
 	div.textContent = excuse;
