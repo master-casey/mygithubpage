@@ -1,10 +1,8 @@
 (function($) {
 $(document).ready(function(){
 	
-	
-	var excuse = counter;
 	var div = document.getElementById("name_b");
-	div.textContent = excuse;
+	div.textContent = counter;
 	var text = div.textContent;
 
   })
@@ -15,11 +13,11 @@ $(document).ready(function(){
   xml.send();
   var xmlDoc = xml.responseXML;
 
-  var counter = xmlDoc.getElementsByTagName("count")[0].childNodes[0].nodeValue;
+  var counter = parseInt(xmlDoc.getElementsByTagName("count")[0].childNodes[0].nodeValue);
 
 function incr() {
-	var excuse = counter;
+	counter = counter + 1;
 	var div = document.getElementById("name_b");
-	div.textContent = excuse;
+	div.textContent = counter;
 	var text = div.textContent;
   }
