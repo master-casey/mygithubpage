@@ -1,6 +1,11 @@
 (function($) {
 $(document).ready(function(){
-
+	
+	
+	var excuse = excuses[Math.floor(Math.random() * excuses.length)];
+	var div = document.getElementById("counter");
+	div.textContent = excuse;
+	var text = div.textContent;
 
   })
 })(jQuery)
@@ -26,7 +31,7 @@ $(document).ready(function(){
 
 function getExcuse() {
 	var excuse = excuses[Math.floor(Math.random() * excuses.length)];
-	var div = document.getElementById("excuseId");
+	var div = document.getElementById("counter");
 	div.textContent = excuse;
 	var text = div.textContent;
   }
