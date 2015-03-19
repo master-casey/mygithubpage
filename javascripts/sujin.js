@@ -16,9 +16,6 @@ $(document).ready(function(){
   var node = xmlDoc.getElementsByTagName("count")[0].childNodes[0];
   var counter = parseInt(node.nodeValue);
 
-  var writer = new XMLWriter();
-
-
 function incr() {
 	counter = counter + 1;
 	var div = document.getElementById("name_b");
