@@ -11,7 +11,7 @@ $(document).ready(function(){
 })(jQuery)
 
   var xml = new XMLHttpRequest();
-  xml.open("GET", "sujin.xml", false);
+  xml.open("GET", "xml/sujin.xml", false);
   xml.send();
   var xmlDoc = xml.responseXml;
 
